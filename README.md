@@ -3,7 +3,8 @@
 
 **Description**
 
-The program is aimed to provide the ability to search in Wikidata database for sensors that are used in smart fisheries. The program has the flexibility to search by keywords. Also, it has an option for listing all instances of sensors. The program will display the following information for the searched item, which are the item id, label, description, picture (If available), and aliases (If available).
+The program is aimed to provide the ability to search in Wikidata database for sensors that are used in smart fisheries. The program has the flexibility to search by item ID and
+keywords. Also, it has an option for listing items that are instance of a sensor (Q167676). The program will display the following information for the searched item, which are the item id, label, description, picture (If available), and aliases (If available).
 
 The program uses the SPARQL data service from qwikidata python package. SPARQL is an RDF query language. Wikidata provides an SPARQL endpoint that allows programs to interact with the database.
 
@@ -16,7 +17,7 @@ The program uses the SPARQL data service from qwikidata python package. SPARQL i
 **Run Instructions**
 
 1. Run the main.py in your favorite python editor or via the command line by typing python main.py
-2. Choose one of the options by typing the number of that option, e.g. 1, 2, 3, or 4
+2. Choose one of the options by typing the number of that option, e.g. 1, 2, 3, or 4. Below are the options:
 * Option 1: Search by a keyword in the description of items in Wikidata database
 * Option 2: Search by item id
 * Option 3: List items that are instance of a sensor
