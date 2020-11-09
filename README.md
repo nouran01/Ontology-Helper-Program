@@ -1,4 +1,4 @@
-# Wikidata Search Program:
+# Wikidata Search Program
 
 
 **Description**
